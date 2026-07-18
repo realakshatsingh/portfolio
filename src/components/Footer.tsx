@@ -95,7 +95,7 @@ export default function Footer() {
             </p>
             <a href="mailto:contact@realakshatsingh.com" className="footer__email">
               <Mail size={16} />
-              contact@realakshatsingh.com
+              <span>contact@realakshatsingh.com</span>
             </a>
           </div>
         </div>
@@ -103,10 +103,10 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="footer__bottom">
           <p className="footer__copyright">
-            © 2025 Akshat Singh. All rights reserved.
+            © 2026 Akshat Singh. All rights reserved.
           </p>
           <p className="footer__built-with">
-            Built with Next.js & ❤️
+            Built with Purpose
           </p>
         </div>
       </div>

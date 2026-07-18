@@ -95,9 +95,10 @@ export default function About() {
               <Image 
                 src="/profile.png" 
                 alt="Akshat Singh" 
-                fill 
+                width={280}
+                height={280}
                 className="about-image"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                sizes="280px"
                 priority
               />
             </div>

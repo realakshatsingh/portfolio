@@ -17,7 +17,6 @@ const NAV_ITEMS = [
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isHidden, setIsHidden] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
   const pathname = usePathname();
   const router = useRouter();
@@ -36,13 +35,6 @@ export default function Navbar() {
 
         // Toggle scrolled state for background
         setIsScrolled(currentScrollY > 50);
-
-        // Hide on scroll down, show on scroll up (only after threshold)
-        if (currentScrollY > 100) {
-          setIsHidden(currentScrollY > lastScrollY && currentScrollY - lastScrollY > 5);
-        } else {
-          setIsHidden(false);
-        }
 
         lastScrollY = currentScrollY;
         ticking = false;
@@ -111,7 +103,6 @@ export default function Navbar() {
   const navbarClasses = [
     'navbar',
     isScrolled ? 'navbar--scrolled' : '',
-    isHidden ? 'navbar--hidden' : '',
   ]
     .filter(Boolean)
     .join(' ');
@@ -141,6 +132,14 @@ export default function Navbar() {
                 </li>
             ))}
           </ul>
+
+          {/* CTA Button */}
+          <button
+            className="navbar__cta"
+            onClick={() => scrollToSection('#contact')}
+          >
+            Connect
+          </button>
 
           {/* Hamburger */}
           <button

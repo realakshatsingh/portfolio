@@ -92,19 +92,26 @@
   margin-bottom: var(--space-4);
 }
 
-.footer__contact-email {
+.footer__email {
   font-size: var(--fs-sm);
   font-weight: 500;
   color: var(--text-primary);
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   padding-bottom: 2px;
   border-bottom: 1px solid var(--border-strong);
   transition: border-color var(--transition-fast);
 }
 
-.footer__contact-email:hover {
+.footer__email:hover {
   border-color: var(--text-primary);
+}
+
+.footer__built-with {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
 }
 
 /* Bottom Bar */
