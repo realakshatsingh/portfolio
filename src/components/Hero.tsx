@@ -21,7 +21,7 @@ export default function Hero() {
 
         <SectionReveal delay={0.3}>
           <div className="hero-actions">
-            <a href="/resume.pdf" download="Akshat_Singh_Data_Analyst_Resume.pdf" className="btn-primary">
+            <a href="/Akshat_Singh_Data_Analyst_Resume.pdf" download="Akshat_Singh_Data_Analyst_Resume.pdf" className="btn-primary">
               Download Resume
             </a>
             <a href="#projects" className="btn-secondary">

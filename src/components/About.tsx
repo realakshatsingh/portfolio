@@ -61,7 +61,7 @@ export default function About() {
                   With a strong foundation in statistics and Python, I bridge the gap between exploratory data analysis and actionable business insights. I enjoy the challenge of architecting scalable solutions—whether that means crafting interactive dashboards or optimizing end-to-end data pipelines.
                 </p>
                 <div style={{ marginTop: '1.5rem' }}>
-                  <a href="/resume.pdf" download="Akshat_Singh_Data_Analyst_Resume.pdf" className="btn-primary">
+                  <a href="/Akshat_Singh_Data_Analyst_Resume.pdf" download="Akshat_Singh_Data_Analyst_Resume.pdf" className="btn-primary">
                     Download Resume
                   </a>
                 </div>
