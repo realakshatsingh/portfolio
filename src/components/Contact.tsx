@@ -50,7 +50,7 @@ export default function Contact() {
             <div className="contact-info">
               <h3 className="contact-info-heading">Let's work together</h3>
               <p className="contact-info-desc">
-                I'm currently exploring new opportunities in Data Analysis and AI/ML Engineering. 
+                I'm currently exploring new opportunities in Data Analysis. 
                 Whether you have a question or just want to say hi, I'll try my best to get back to you!
               </p>
 

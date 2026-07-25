@@ -49,7 +49,7 @@ export default function Footer() {
           <div>
             <h3 className="footer__brand-name">Akshat Singh</h3>
             <p className="footer__brand-tagline">
-              Data Analyst · AI/ML Engineer
+              Data Analyst
             </p>
             <div className="footer__socials">
               {SOCIAL_LINKS.map(({ icon: Icon, href, label }) => (
@@ -91,7 +91,7 @@ export default function Footer() {
           <div>
             <h4 className="footer__heading">Get In Touch</h4>
             <p className="footer__contact-text">
-              Open to data analyst and AI/ML roles. Let&apos;s connect and build something amazing.
+              Open to data analyst roles. Let&apos;s connect and build something amazing.
             </p>
             <a href="mailto:contact@realakshatsingh.com" className="footer__email">
               <Mail size={16} />

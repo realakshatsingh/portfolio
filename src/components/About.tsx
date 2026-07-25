@@ -8,22 +8,20 @@ import './About.css';
 const skillCategories = [
   {
     label: 'Languages',
-    skills: ['Python', 'SQL', 'JavaScript', 'TypeScript', 'R'],
+    skills: ['Python', 'SQL', 'HTML', 'CSS', 'JavaScript'],
   },
   {
-    label: 'Data & ML',
-    skills: ['Pandas', 'NumPy', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Tableau', 'Power BI'],
+    label: 'Data & Analytics',
+    skills: ['pandas', 'NumPy', 'scikit-learn', 'Tableau', 'Excel', 'matplotlib', 'seaborn', 'Statistical Modeling'],
   },
   {
     label: 'Tools & Platforms',
-    skills: ['Git', 'Docker', 'AWS', 'GCP', 'Jupyter', 'VS Code'],
+    skills: ['MySQL', 'Git', 'GitHub', 'Docker', 'GCP', 'AWS', 'Jupyter Notebook'],
   },
   {
     label: 'Certifications',
     skills: [
-      { name: 'Data Science Essentials (Cisco)', url: 'https://www.credly.com/badges/6050c2c7-b34d-45b6-9e98-cc31004f3fce/public_url' },
-      { name: 'Intro to Machine Learning (Kaggle)', url: 'https://www.kaggle.com/learn/certification/darkakky/intro-to-machine-learning' },
-      { name: 'Make Data-Driven Decisions (Google)', url: 'https://www.coursera.org/account/accomplishments/verify/TK2SVTTVE5MU' }
+      { name: 'Data Science Essentials with Python (Cisco)', url: '#' }
     ],
   },
 ];

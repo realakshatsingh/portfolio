@@ -5,28 +5,34 @@ import './Journey.css';
 
 const timeline = [
   {
-    date: '2022 - 2026',
-    title: 'Bachelor of Technology (B.Tech)',
-    org: 'Indian Institute of Technology (IIT), Delhi',
+    date: 'Jun 2026 - Present',
+    title: 'Vice President, Public Relations',
+    org: 'Janakpuri Toastmasters',
+    desc: 'Built an automated lead generation system using forms and email outreach, and optimized conversion.',
+  },
+  {
+    date: 'Oct 2022 - Aug 2026',
+    title: 'Bachelor of Technology in Civil Engineering',
+    org: 'Indian Institute of Technology Delhi',
     desc: 'Pursuing undergraduate degree at India\'s premier engineering institute, combining rigorous analytical problem solving with advanced computational methods.',
   },
   {
-    date: 'Nov 2022 - Nov 2025',
-    title: 'Founder & CEO',
-    org: 'TraBii',
-    desc: 'Founded an AI-powered platform for seamless event discovery. Gained deep experience in full-stack development, AI integration, and product iteration. Recognized and supported by Google for Startups and Microsoft Founders Hub.',
+    date: 'Oct 2023 - Nov 2025',
+    title: 'Founder & Data Analyst',
+    org: 'TraBii Entertainment Private Limited',
+    desc: 'Built KPI dashboards and resolved bottlenecks, increasing onboarding conversion by 19%. Managed end-to-end data workflows using MySQL and integrated Python pipelines. Scaled to 150+ users.',
   },
   {
-    date: '2021',
-    title: 'Class 12 (PCM)',
-    org: 'St. Mary\'s Inter College',
-    desc: 'Graduated with an outstanding academic record, achieving 98.2% in the board examinations with a focus on Physics, Chemistry, and Mathematics.',
+    date: 'Feb 2024 - Mar 2024',
+    title: 'Activity Head (Events)',
+    org: 'Kaizen Fest, NSS IIT Delhi',
+    desc: 'Organized 4 large-scale events end-to-end and acquired guests through 200+ cold emails and social media outreach campaigns.',
   },
   {
-    date: '2019',
-    title: 'Class 10',
-    org: 'St. Mary\'s Inter College',
-    desc: 'Secured 98.2% in the high school board examinations, building a strong foundational aptitude for analytical and quantitative subjects.',
+    date: 'Sep 2023',
+    title: 'Activity Head (Logistics)',
+    org: 'Rendezvous, IIT Delhi',
+    desc: 'Coordinated logistics and stage setup for 2 major stages at IIT Delhi\'s flagship cultural fest.',
   },
 ];
 

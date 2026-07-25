@@ -9,13 +9,13 @@ export default function Hero() {
           <h1 className="hero-title">
             Akshat Singh.
             <br />
-            <span className="hero-title-muted">Data Analyst &<br/>AI Engineer.</span>
+            <span className="hero-title-muted">Data Analyst.</span>
           </h1>
         </SectionReveal>
 
         <SectionReveal delay={0.2}>
           <p className="hero-subtitle">
-            I build end-to-end data-driven solutions and intelligent machine learning systems. Currently exploring opportunities in data analytics and AI engineering.
+            I build end-to-end data pipelines, insightful dashboards, and robust data-driven solutions. Experienced in Python, SQL, and Tableau to extract actionable insights.
           </p>
         </SectionReveal>
 

@@ -15,19 +15,15 @@ function GithubIcon({ size = 20 }: { size?: number }) {
 }
 
 const projects = [
-  { id: 1, title: 'AI Sentiment Analyzer', description: 'A deep learning model that analyzes customer reviews and social media posts to determine sentiment with 94% accuracy. Built with transformers and fine-tuned on domain-specific data.', tags: ['Python', 'TensorFlow', 'NLP', 'Flask'], category: 'ai', gradient: 'linear-gradient(135deg, #6366f1, #0ea5e9)' },
-  { id: 2, title: 'Sales Analytics Dashboard', description: 'Interactive dashboard visualizing 2M+ sales records with real-time KPIs, trend analysis, and predictive forecasting. Reduced reporting time by 60%.', tags: ['Tableau', 'SQL', 'Python', 'Pandas'], category: 'data', gradient: 'linear-gradient(135deg, #8b5cf6, #ec4899)' },
-  { id: 3, title: 'Stock Price Predictor', description: 'LSTM-based neural network predicting stock prices with 87% directional accuracy. Features real-time data ingestion and automated trading signals.', tags: ['Python', 'PyTorch', 'LSTM', 'Pandas'], category: 'ai', gradient: 'linear-gradient(135deg, #10b981, #6366f1)' },
-  { id: 4, title: 'Customer Segmentation Engine', description: 'K-Means clustering pipeline identifying 5 distinct customer personas from behavioral data. Improved targeted marketing ROI by 40%.', tags: ['Python', 'Scikit-learn', 'K-Means', 'Matplotlib'], category: 'data', gradient: 'linear-gradient(135deg, #f59e0b, #ef4444)' },
-  { id: 5, title: 'Portfolio Website', description: 'This very website! A modern, performant personal portfolio built with Next.js, featuring MDX blog posts, glassmorphism design, and smooth animations.', tags: ['Next.js', 'TypeScript', 'React', 'MDX'], category: 'web', gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)' },
-  { id: 6, title: 'AI Chatbot Assistant', description: 'An intelligent conversational agent powered by LangChain and GPT, capable of answering domain-specific questions with retrieval-augmented generation.', tags: ['Python', 'LangChain', 'OpenAI', 'FastAPI'], category: 'ai', gradient: 'linear-gradient(135deg, #0ea5e9, #8b5cf6)' },
+  { id: 1, title: 'Delhi Weather Analysis', description: 'Cleaned and analyzed 11 years of Delhi weather data to find temperature, rainfall, and heatwave trends. Built visualizations for monthly and yearly comparisons and generated an automated weather summary.', tags: ['Python', 'NumPy', 'pandas', 'matplotlib', 'Jupyter'], category: 'data', gradient: 'linear-gradient(135deg, #6366f1, #0ea5e9)' },
+  { id: 2, title: 'Nordic Observatory Dashboard', description: 'Built a Tableau dashboard analyzing 25 years of socioeconomic data across 5 Nordic countries. Synthesized 750+ data points across 6 KPIs (GDP, emissions) to extract regional growth trends.', tags: ['Tableau', 'Data Visualization', 'Dashboard Design'], category: 'visualization', gradient: 'linear-gradient(135deg, #8b5cf6, #ec4899)' },
+  { id: 3, title: 'Data Analysis of Cement Pastes', description: 'Built a Python data pipeline to extract data and automate complex modeling. Analyzed multi-variable time-series data to uncover structural and rheological trends. Visualized findings to deliver a comprehensive technical report.', tags: ['Python', 'Excel', 'Statistical Analysis', 'Pandas'], category: 'data', gradient: 'linear-gradient(135deg, #10b981, #6366f1)' },
 ];
 
 const filters = [
   { id: 'all', label: 'All' },
-  { id: 'ai', label: 'AI/ML' },
   { id: 'data', label: 'Data Analysis' },
-  { id: 'web', label: 'Web' },
+  { id: 'visualization', label: 'Visualization' },
 ];
 
 export default function Projects() {
