@@ -7,21 +7,31 @@ import './About.css';
 
 const skillCategories = [
   {
-    label: 'Languages',
-    skills: ['Python', 'SQL', 'HTML', 'CSS', 'JavaScript'],
+    label: 'Languages & Databases',
+    skills: ['Python', 'SQL', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
   },
   {
-    label: 'Data & Analytics',
-    skills: ['pandas', 'NumPy', 'scikit-learn', 'Tableau', 'Excel', 'matplotlib', 'seaborn', 'Statistical Modeling'],
+    label: 'Data Analysis',
+    skills: ['pandas', 'NumPy', 'scikit-learn', 'mysql-connector-python', 'Statistical Modeling', 'Hypothesis Testing', 'A/B Testing', 'Data Cleaning', 'Data Wrangling'],
   },
   {
-    label: 'Tools & Platforms',
-    skills: ['MySQL', 'Git', 'GitHub', 'Docker', 'GCP', 'AWS', 'Jupyter Notebook'],
+    label: 'Data Visualization',
+    skills: ['Tableau', 'Excel', 'matplotlib', 'seaborn'],
+  },
+  {
+    label: 'Tools & Cloud',
+    skills: ['Git', 'GitHub', 'Docker', 'VS Code', 'PyCharm', 'Jupyter Notebook', 'GCP', 'Azure', 'AWS'],
+  },
+  {
+    label: 'Other',
+    skills: ['MS Office Suite', 'Figma (UI/UX Design)', 'Canva'],
   },
   {
     label: 'Certifications',
     skills: [
-      { name: 'Data Science Essentials with Python (Cisco)', url: '#' }
+      { name: 'Data Science Essentials with Python (Cisco)', url: '#' },
+      { name: 'Intro to Machine Learning (Kaggle)', url: 'https://www.kaggle.com/learn/certification/darkakky/intro-to-machine-learning' },
+      { name: 'Make Data-Driven Decisions (Google)', url: 'https://www.coursera.org/account/accomplishments/verify/TK2SVTTVE5MU' }
     ],
   },
 ];
@@ -45,10 +55,10 @@ export default function About() {
             <SectionReveal delay={0.2} direction="left">
               <div className="about-bio">
                 <p className="about-bio-lead">
-                  I am a Data Analyst and AI Engineer specializing in building robust, data-driven systems. My focus is on extracting meaningful signal from complex datasets and deploying machine learning models that solve real-world problems.
+                  I am a Data Analyst specializing in building robust, data-driven systems. My focus is on extracting meaningful signals from complex datasets and deploying analytical models that solve real-world problems.
                 </p>
                 <p>
-                  With a strong foundation in statistics and Python, I bridge the gap between exploratory data analysis and production-level engineering. I enjoy the challenge of architecting scalable solutions—whether that means crafting interactive dashboards or training deep neural networks.
+                  With a strong foundation in statistics and Python, I bridge the gap between exploratory data analysis and actionable business insights. I enjoy the challenge of architecting scalable solutions—whether that means crafting interactive dashboards or optimizing end-to-end data pipelines.
                 </p>
               </div>
             </SectionReveal>

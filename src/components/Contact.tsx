@@ -79,7 +79,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <span className="contact-detail-label">Status</span>
-                    <span className="contact-detail-value">Available for Immediate Engagement</span>
+                    <span className="contact-detail-value">Available to join immediately</span>
                   </div>
                 </div>
               </div>
