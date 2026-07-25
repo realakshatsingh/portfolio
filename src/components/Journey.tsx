@@ -20,7 +20,7 @@ const timeline = [
     date: 'Oct 2023 - Nov 2025',
     title: 'Founder & Data Analyst',
     org: 'TraBii Entertainment Private Limited',
-    desc: 'Built KPI dashboards and resolved bottlenecks, increasing onboarding conversion by 19%. Managed end-to-end data workflows using MySQL and integrated Python pipelines. Scaled to 150+ users.',
+    desc: 'Built KPI dashboards and resolved bottlenecks, increasing onboarding conversion by 19%. Managed end-to-end data workflows leveraging advanced SQL (MySQL) to ensure optimized data retrieval, and integrated Python pipelines. Scaled to 150+ users.',
   },
   {
     date: 'Feb 2024 - Mar 2024',
@@ -33,6 +33,18 @@ const timeline = [
     title: 'Activity Head (Logistics)',
     org: 'Rendezvous, IIT Delhi',
     desc: 'Coordinated logistics and stage setup for 2 major stages at IIT Delhi\'s flagship cultural fest.',
+  },
+  {
+    date: '2021',
+    title: 'Class 12th CBSE (PCM)',
+    org: 'St. Mary\'s Inter College',
+    desc: 'Secured 98.2% and District Topper. Excelled in Physics, Chemistry, and Mathematics with Computer Science.',
+  },
+  {
+    date: '2019',
+    title: 'Class 10th CBSE',
+    org: 'St. Mary\'s Inter College',
+    desc: 'Secured 98.2% and District Topper.',
   },
 ];
 

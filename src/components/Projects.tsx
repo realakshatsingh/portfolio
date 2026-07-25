@@ -15,9 +15,9 @@ function GithubIcon({ size = 20 }: { size?: number }) {
 }
 
 const projects = [
-  { id: 1, title: 'Delhi Weather Analysis', description: 'Cleaned and analyzed 11 years of Delhi weather data to find temperature, rainfall, and heatwave trends. Built visualizations for monthly and yearly comparisons and generated an automated weather summary.', tags: ['Python', 'NumPy', 'pandas', 'matplotlib', 'Jupyter'], category: 'data', github: 'https://github.com/realakshatsingh/delhi-weather-analysis', liveDemo: '' },
-  { id: 2, title: 'Nordic Observatory Dashboard', description: 'Built a Tableau dashboard analyzing 25 years of socioeconomic data across 5 Nordic countries. Synthesized 750+ data points across 6 KPIs (GDP, emissions) to extract regional growth trends.', tags: ['Tableau', 'Data Visualization', 'Dashboard Design'], category: 'visualization', github: '', liveDemo: 'https://public.tableau.com/app/profile/akshat.singh5267/viz/NordicObservatory/Dashboard' },
-  { id: 3, title: 'Data Analysis of Cement Pastes', description: 'Built a Python data pipeline to extract data and automate complex modeling. Analyzed multi-variable time-series data to uncover structural and rheological trends. Visualized findings to deliver a comprehensive technical report.', tags: ['Python', 'Excel', 'Statistical Analysis', 'Pandas'], category: 'data', github: 'https://github.com/realakshatsingh/data_analysis_cement', liveDemo: '' },
+  { id: 1, title: 'Delhi Weather Analysis', description: 'Cleaned and analyzed 11 years of Delhi weather data to find temperature, rainfall, and heatwave trends. Built visualizations for monthly and yearly comparisons and generated an automated weather summary.', tags: ['Python', 'NumPy', 'pandas', 'matplotlib', 'Jupyter'], category: 'data', github: 'https://github.com/realakshatsingh/delhi-weather-analysis', liveDemo: '', image: '/projects/weather.jpg' },
+  { id: 2, title: 'Nordic Observatory Dashboard', description: 'Built a Tableau dashboard analyzing 25 years of socioeconomic data across 5 Nordic countries. Synthesized 750+ data points across 6 KPIs (GDP, emissions) to extract regional growth trends.', tags: ['Tableau', 'Data Visualization', 'Dashboard Design'], category: 'visualization', github: '', liveDemo: 'https://public.tableau.com/app/profile/akshat.singh5267/viz/NordicObservatory/Dashboard', image: '/projects/nordic.jpg' },
+  { id: 3, title: 'Data Analysis of Cement Pastes', description: 'Built a Python data pipeline to extract data and automate complex modeling. Analyzed multi-variable time-series data to uncover structural and rheological trends. Visualized findings to deliver a comprehensive technical report.', tags: ['Python', 'Excel', 'Statistical Analysis', 'Pandas'], category: 'data', github: 'https://github.com/realakshatsingh/data_analysis_cement', liveDemo: '', image: '/projects/cement.jpg' },
 ];
 
 const filters = [
@@ -75,6 +75,7 @@ export default function Projects() {
                 >
                   <div
                     className="project-card-cover"
+                    style={{ backgroundImage: `url(${project.image})` }}
                   />
                   <div className="project-card-content">
                     <h3 className="project-card-title">{project.title}</h3>

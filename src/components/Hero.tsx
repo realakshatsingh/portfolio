@@ -15,13 +15,16 @@ export default function Hero() {
 
         <SectionReveal delay={0.2}>
           <p className="hero-subtitle">
-            I build end-to-end data pipelines, insightful dashboards, and robust data-driven solutions. Experienced in Python, SQL, and Tableau to extract actionable insights.
+            I build end-to-end data pipelines, insightful dashboards, and robust data-driven solutions. Experienced in Python, SQL, Excel, and Tableau to extract actionable insights.
           </p>
         </SectionReveal>
 
         <SectionReveal delay={0.3}>
           <div className="hero-actions">
-            <a href="#projects" className="btn-primary">
+            <a href="/resume.pdf" download="Akshat_Singh_Data_Analyst_Resume.pdf" className="btn-primary">
+              Download Resume
+            </a>
+            <a href="#projects" className="btn-secondary">
               View Projects
             </a>
             <a href="#contact" className="btn-secondary">
