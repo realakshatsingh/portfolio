@@ -15,9 +15,9 @@ function GithubIcon({ size = 20 }: { size?: number }) {
 }
 
 const projects = [
-  { id: 1, title: 'Delhi Weather Analysis', description: 'Cleaned and analyzed 11 years of Delhi weather data to find temperature, rainfall, and heatwave trends. Built visualizations for monthly and yearly comparisons and generated an automated weather summary.', tags: ['Python', 'NumPy', 'pandas', 'matplotlib', 'Jupyter'], category: 'data', gradient: 'linear-gradient(135deg, #6366f1, #0ea5e9)' },
-  { id: 2, title: 'Nordic Observatory Dashboard', description: 'Built a Tableau dashboard analyzing 25 years of socioeconomic data across 5 Nordic countries. Synthesized 750+ data points across 6 KPIs (GDP, emissions) to extract regional growth trends.', tags: ['Tableau', 'Data Visualization', 'Dashboard Design'], category: 'visualization', gradient: 'linear-gradient(135deg, #8b5cf6, #ec4899)' },
-  { id: 3, title: 'Data Analysis of Cement Pastes', description: 'Built a Python data pipeline to extract data and automate complex modeling. Analyzed multi-variable time-series data to uncover structural and rheological trends. Visualized findings to deliver a comprehensive technical report.', tags: ['Python', 'Excel', 'Statistical Analysis', 'Pandas'], category: 'data', gradient: 'linear-gradient(135deg, #10b981, #6366f1)' },
+  { id: 1, title: 'Delhi Weather Analysis', description: 'Cleaned and analyzed 11 years of Delhi weather data to find temperature, rainfall, and heatwave trends. Built visualizations for monthly and yearly comparisons and generated an automated weather summary.', tags: ['Python', 'NumPy', 'pandas', 'matplotlib', 'Jupyter'], category: 'data', github: 'https://github.com/realakshatsingh/delhi-weather-analysis', liveDemo: '' },
+  { id: 2, title: 'Nordic Observatory Dashboard', description: 'Built a Tableau dashboard analyzing 25 years of socioeconomic data across 5 Nordic countries. Synthesized 750+ data points across 6 KPIs (GDP, emissions) to extract regional growth trends.', tags: ['Tableau', 'Data Visualization', 'Dashboard Design'], category: 'visualization', github: '', liveDemo: 'https://public.tableau.com/app/profile/akshat.singh5267/viz/NordicObservatory/Dashboard' },
+  { id: 3, title: 'Data Analysis of Cement Pastes', description: 'Built a Python data pipeline to extract data and automate complex modeling. Analyzed multi-variable time-series data to uncover structural and rheological trends. Visualized findings to deliver a comprehensive technical report.', tags: ['Python', 'Excel', 'Statistical Analysis', 'Pandas'], category: 'data', github: 'https://github.com/realakshatsingh/data_analysis_cement', liveDemo: '' },
 ];
 
 const filters = [
@@ -42,7 +42,7 @@ export default function Projects() {
             Featured Projects.
           </h2>
           <p className="section-subtitle">
-            A selection of my recent work in data science, AI, and web development.
+            A selection of my recent work in data analysis and visualization.
           </p>
         </SectionReveal>
 
@@ -87,12 +87,16 @@ export default function Projects() {
                       ))}
                     </div>
                     <div className="project-card-footer">
-                      <a href="#" className="project-card-link">
-                        <ExternalLink size={16} /> Live Demo
-                      </a>
-                      <a href="#" className="project-card-link">
-                        <GithubIcon size={16} /> GitHub
-                      </a>
+                      {project.liveDemo && (
+                        <a href={project.liveDemo} target="_blank" rel="noopener noreferrer" className="project-card-link">
+                          <ExternalLink size={16} /> Live Demo
+                        </a>
+                      )}
+                      {project.github && (
+                        <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-card-link">
+                          <GithubIcon size={16} /> GitHub
+                        </a>
+                      )}
                     </div>
                   </div>
                 </motion.div>
