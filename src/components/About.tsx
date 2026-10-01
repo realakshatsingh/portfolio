@@ -29,7 +29,7 @@ const skillCategories = [
   {
     label: 'Certifications',
     skills: [
-      { name: 'Data Science Essentials with Python (Cisco)', url: '#' },
+      { name: 'Data Science Essentials with Python (Cisco)', url: 'https://www.credly.com/badges/6050c2c7-b34d-45b6-9e98-cc31004f3fce/public_url' },
       { name: 'Intro to Machine Learning (Kaggle)', url: 'https://www.kaggle.com/learn/certification/darkakky/intro-to-machine-learning' },
       { name: 'Make Data-Driven Decisions (Google)', url: 'https://www.coursera.org/account/accomplishments/verify/TK2SVTTVE5MU' }
     ],
